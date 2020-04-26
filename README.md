@@ -7,7 +7,9 @@ A download manager
  - Progress Bar (using tqdm)
  - Name the downloaded file manually
  - Provide a Custom location for download directory
+
 **Installation**
+
 `git clone https://github.com/zznixt07/Neutron`
 
 **Requirements**
@@ -26,7 +28,7 @@ Neutron.get('https://cdn.pixabay.com/photo/2019/10/04/18/36/milky-way-4526277_12
 
 # download video from 'https://i.imgur.com/aMUFgbO.mp4'
 Neutron.get('https://i.imgur.com/aMUFgbO.mp4', 
-                    customName='earthfromspace')
+			customName='earthfromspace')
 
 # some download require auth which can be stored in requests.Session
 import requests
