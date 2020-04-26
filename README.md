@@ -7,6 +7,8 @@ A download manager
  - Progress Bar (using tqdm)
  - Name the downloaded file manually
  - Provide a Custom location for download directory
+**Installation**
+`git clone https://github.com/zznixt07/Neutron`
 
 **Requirements**
  - requests
@@ -32,6 +34,6 @@ with requests.Session() as s:
     # ...login and store cookies in s
     Neutron.get('https://i.imgur.com/aMUFgbO.mp4', 
 			sess=s, 
-                        customName='happy_earth',
-                        customPath = '/usr/bin')
+            customName='happy_earth',
+            customPath = '/usr/bin')
 ```
