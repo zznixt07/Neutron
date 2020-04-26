@@ -11,6 +11,7 @@ A download manager
 **Requirements**
  - requests
  - tqdm
+ 
  `pip install requests tqdm`
 
 **Usage**
@@ -30,7 +31,7 @@ import requests
 with requests.Session() as s:
     # ...login and store cookies in s
     Neutron.get('https://i.imgur.com/aMUFgbO.mp4', 
-					    sess=s, 
+			sess=s, 
                         customName='happy_earth',
                         customPath = '/usr/bin')
 ```
